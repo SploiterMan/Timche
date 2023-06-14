@@ -5,5 +5,4 @@ from .models import Advert
 class AdvertSerializer(serializers.ModelSerializer):
     class Meta:
         model = Advert
-        # exclude = ['Auther']
         fields = '__all__'
